@@ -1,0 +1,14 @@
+# Automatically start up tmux  
+# If tmux session 'main' exists, attach to it 
+# If it doesn't exist, create it 
+# -A = attach if exists, create if it doesn't
+# -s main = session name 'main'
+command = /opt/homebrew/bin/tmux new-session -A -s main
+
+
+theme = catppuccin-frappe
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 15
+font-thicken = true
+font-thicken-strength = 0
+
